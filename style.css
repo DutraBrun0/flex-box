@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: white;
+}
+
+body{
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    padding-top: 25px;
+}
+
+a{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+
+#banner{
+    background-image: url(imagens/fundo.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+article{
+    display: block;
+    margin: auto;
+    margin-top: 75px;
+    width: 80%;
+    border-radius: 7px;
+}
+
+h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    margin-bottom: 20px;
+}
+
+span{
+    color: white;
+}
+
+#conteudo{
+    display: flex;
+}
+
+h3{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+    text-align: justify;
+    padding: 20px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#bola{
+    display: block;
+    margin: auto;
+    
+}
+
+#um{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#dois{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#tres{
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+#link{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+}
